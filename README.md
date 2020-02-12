@@ -6,7 +6,7 @@ Open your app directory in terminal
 
 Clone this repositore in your directory
 
-```$ https://github.com/igorcb/docker-compose-rails-6-postgres.git .```
+```$ git clone https://github.com/igorcb/docker-compose-rails-6-postgres.git .```
 
 ## Build Dockerfile
 ```$ docker-compose build```
