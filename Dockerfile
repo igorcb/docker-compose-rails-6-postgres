@@ -4,14 +4,14 @@ RUN apt-get update && apt-get install -qq -y --no-install-recommends \
   build-essential nodejs libpq-dev imagemagick zlib1g-dev \
   libmagickwand-dev libmagickcore-dev vim
 
-RUN mkdir /yohan
+RUN mkdir /myapp
 
-WORKDIR /yohan
+WORKDIR /myapp
 
-ADD Gemfile /yohan/Gemfile
+ADD Gemfile /myapp/Gemfile
 
-ADD Gemfile.lock /yohan/Gemfile.lock
+ADD Gemfile.lock /myapp/Gemfile.lock
 
 RUN bundle install
 
-ADD . /yohan
+ADD . /myapp
