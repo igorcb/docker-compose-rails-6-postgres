@@ -1,4 +1,4 @@
-# docker-compose - Rails e Postgres
+# docker-compose - Rails 6.0 e Postgres
 Docker compose com rails e postgres
 
 ## Clone this
